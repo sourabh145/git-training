@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_136JMVOFEeiX2JrFu9H4iA" label="gitprojectmain" description="" language="java" technicalLabel="GITPROJECTMAIN" creationDate="2018-05-09T18:03:09.000+0530" author="_136JMlOFEeiX2JrFu9H4iA" productVersion="Talend Data Fabric-6.5.1.20180116_1512" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/sourabh145/git-training&quot;,&quot;login&quot;:&quot;sourabh145&quot;,&quot;passwd&quot;:&quot;AeIOO0lkBAyMJe/cv7ZFng==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI" itemsRelationVersion="1.3">
+  <TalendProperties:Project xmi:id="_136JMVOFEeiX2JrFu9H4iA" label="gitprojectmain" description="" language="java" technicalLabel="GITPROJECTMAIN" creationDate="2018-05-09T18:03:09.000+0530" author="_136JMlOFEeiX2JrFu9H4iA" referencedProjects="_DQJqwVOIEeik94NSOchiTg" productVersion="Talend Data Fabric-6.5.1.20180116_1512" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/sourabh145/git-training&quot;,&quot;login&quot;:&quot;sourabh145&quot;,&quot;passwd&quot;:&quot;AeIOO0lkBAyMJe/cv7ZFng==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI" itemsRelationVersion="1.3">
     <technicalStatus xmi:id="_2BZcYFOFEeiX2JrFu9H4iA" label="development" code="DEV"/>
     <technicalStatus xmi:id="_2BZcYVOFEeiX2JrFu9H4iA" label="testing" code="TEST"/>
     <technicalStatus xmi:id="_2BZcYlOFEeiX2JrFu9H4iA" label="production" code="PROD"/>
@@ -396,4 +396,7 @@
     <migrationTask xmi:id="_2tyBUVOFEeiX2JrFu9H4iA" id="org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_136JMlOFEeiX2JrFu9H4iA" login="admin@company.com" firstName="admin" lastName="admin" type="DI" additionnalData="{}"/>
+  <TalendProperties:ProjectReference xmi:id="_DQJqwVOIEeik94NSOchiTg" project="_136JMVOFEeiX2JrFu9H4iA" branch="master" referencedBranch="master">
+    <referencedProject href="../GITREF/talend.project#projectReference"/>
+  </TalendProperties:ProjectReference>
 </xmi:XMI>
